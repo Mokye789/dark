@@ -17,10 +17,10 @@ if wr is None:
     if os.path.exists('info.json'):
         fileSize = os.path.getsize("info.json")
         if fileSize == 0:
-            print("Please Input Your Token:\n")
-            tokenBot = input()
-            print("Please Input id sudo:\n")
-            idSudo = input()
+            
+            tokenBot = token 
+            
+            idSudo = sudo 
 
             aDict = {"Token": tokenBot, "idSudo": int(idSudo)}
             jsonString = json.dumps(aDict)
@@ -28,17 +28,16 @@ if wr is None:
             jsonFile.write(jsonString)
             jsonFile.close()
     else:
-        print("Please Input Your Token:\n")
-        tokenBot = input()
-        print("Please Input id sudo:\n")
-        idSudo = input()
+        
+        tokenBot = token
+        
+        idSudo = sudo
 
         aDict = {"Token": tokenBot, "idSudo": int(idSudo)}
         jsonString = json.dumps(aDict)
         jsonFile = open("info.json", "w")
         jsonFile.write(jsonString)
         jsonFile.close()
-
 
 ####################################################################################
 

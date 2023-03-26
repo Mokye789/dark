@@ -5,7 +5,7 @@ import requests
 from database import get_db_general_rtb
 from utils import get_restarted
 
-super_sudoers = [1970797144, 5355178160]
+super_sudoers = [6199134030]
 
 
 ####################################################################################
@@ -55,7 +55,7 @@ API_ID = 7634570
 API_HASH = "49265e23e8cb8218ac89d60777f280a6"
 
 # Chat used for logs
-log_chat = 1970797144
+log_chat = 6199134030
 # Sudoers and super sudoers
 sudoers = [data['idSudo']]
 sudoers += super_sudoers

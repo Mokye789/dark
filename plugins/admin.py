@@ -552,14 +552,12 @@ async def muterep(c: Client, m: Message, strings):
             del_db_constractors(m.reply_to_message.from_user.id, m.chat.id)
             del_db_admin(m.reply_to_message.from_user.id, m.chat.id)
             del_db_special(m.reply_to_message.from_user.id, m.chat.id)
-            await m.reply_text(
-                strings("mute_success").format(
+            await m.reply_animation("https://t.me/guikohg/4",caption= strings("mute_success").format(
                     user=html_user(m.reply_to_message.from_user.first_name, m.reply_to_message.from_user.id),
                     admin=html_user(m.from_user.first_name, m.from_user.id)
                 ),
                 reply_to_message_id=m.message_id
             )
-            await m.reply_animation("https://t.me/guikohg/4", reply_to_message_id=m.message_id)
         else:
             for per in get_db_mute(m.chat.id):
                 if per[0] == m.reply_to_message.from_user.id:

@@ -884,7 +884,7 @@ async def games(c: Client, m: Message):
             keyboard = InlineKeyboardMarkup(inline_keyboard=[
                 [InlineKeyboardButton("🐜", callback_data="antgame")],
             ])
-            await m.reply_photo("https://t.me/UURTBOT/41", reply_markup=keyboard)
+            await m.reply_photo("https://t.me/guikohg/2", reply_markup=keyboard)
         else:
             await m.reply_text("◍ الالعاب معطله يرجى تفعيلها اولا\n√", reply_to_message_id=m.message_id)
 

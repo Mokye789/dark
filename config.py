@@ -18,9 +18,9 @@ if wr is None:
         fileSize = os.path.getsize("info.json")
         if fileSize == 0:
             
-            tokenBot = token 
+            tokenBot = '6205121087:AAHQhcB1r7LovKxxkFKe_OePB76fpQH1TE4' 
             
-            idSudo = sudo 
+            idSudo = 6199134030 
 
             aDict = {"Token": tokenBot, "idSudo": int(idSudo)}
             jsonString = json.dumps(aDict)
@@ -29,9 +29,9 @@ if wr is None:
             jsonFile.close()
     else:
         
-        tokenBot = token
+        tokenBot = '6205121087:AAHQhcB1r7LovKxxkFKe_OePB76fpQH1TE4'
         
-        idSudo = sudo
+        idSudo = 6199134030
 
         aDict = {"Token": tokenBot, "idSudo": int(idSudo)}
         jsonString = json.dumps(aDict)

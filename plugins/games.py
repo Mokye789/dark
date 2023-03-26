@@ -920,7 +920,7 @@ async def ttgwzeny(c: Client, m: CallbackQuery):
 async def antgame(c: Client, m: CallbackQuery):
     await c.answer_callback_query(m.id, text="ياكلب ياللي معندكش رحمه بتموتها لي..😒😢", show_alert=True)
     await m.message.delete()
-    await m.message.reply_photo("https://t.me/UURTBOT/44",
+    await m.message.reply_photo("https://t.me/guikohg/3",
                                 caption=f"هو الكلب ده اللي موتها يجماعه😂👇\n["
                                         f"{m.from_user.first_name}](tg://user?id={m.from_user.id})",
                                 parse_mode="Markdown")

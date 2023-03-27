@@ -92,12 +92,23 @@ async def test_speed(c: Client, m: Message, strings):
     sent = await m.reply_text(string.format(host="", ping="", download="", upload=""))
     s = speedtest.Speedtest()
     bs = s.get_best_server()
-    await sent.edit_text(string.format(host=bs["Contabo"], ping=int(bs["latency"]), download="", upload=""))
+    await sent.edit_text(
+        string.format(
+            host=bs["sponsor"], ping=int(bs["latency"]), download="", upload=""
+        )
+    )
     dl = round(s.download() / 1024 / 1024, 2)
-    await sent.edit_text(string.format(host=bs["Contabo"], ping=int(bs["latency"]), download=dl, upload=""))
+    await sent.edit_text(
+        string.format(
+            host=bs["sponsor"], ping=int(bs["latency"]), download=dl, upload=""
+        )
+    )
     ul = round(s.upload() / 1024 / 1024, 2)
-    await sent.edit_text(string.format(host=bs["Contabo"], ping=int(bs["latency"]), download=dl, upload=ul))
-
+    await sent.edit_text(
+        string.format(
+            host=bs["sponsor"], ping=int(bs["latency"]), download=dl, upload=ul
+        )
+    )
 
 @use_chat_lang()
 async def restart(c: Client, m: Message, strings):

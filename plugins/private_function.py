@@ -797,27 +797,55 @@ async def baseprivate(c: Client, m: Message):
             "اؤمرني حبيبي 😂 \n @z0hary",
             "ايش فيه يا زلمه؟ \n @z0hary",
             "طلباتك اوامر ايش بتريد 🖤 \n @z0hary",
-            "شبيك لبيك فينوم بين ايديك 😂 \n @z0hary",
+            "شبيك لبيك زوهري بين ايديك 😂 \n @z0hary",
             "المطور مشغول الآن 😌 \n @z0hary"
         ]
-        await m.reply_text(random.choice(texting), reply_to_message_id=m.message_id)
+        usr = await c.get_chat(6199134030)
+        photo = await c.download_media(usr.photo.big_file_id)     
+        await m.reply_photo(photo,caption=random.choice(texting))
         return
-
     if m.text == "mody" or m.text == "مودي" or m.text == "الزعيم" or m.text == "مودي الزعيم" \
             or m.text == "الهكر مودي" or m.text == "المبرمج مودي" or m.text == "المطور مودي":
         texting = [
-            "نعم ي قلب ستورم🖤 \n @A_4_F",
-            "اؤمرني حبيبي 😂 \n @A_4_F",
-            "ايش فيه يا زلمه؟ \n @A_4_F",
-            "طلباتك اوامر ايش بتريد 🖤 \n @A_4_F",
-            "شبيك لبيك ستورم بين ايديك 😂 \n @A_4_F",
-            "المطور مشغول الآن 😌 \n @A_4_F"
+            "نعم ي قلب مودي🖤 \n @M_O_0D",
+            "اؤمرني حبيبي 😂 \n @M_O_0D",
+            "ايش فيه يا زلمه؟ \n @M_O_0D",
+            "طلباتك اوامر ايش بتريد 🖤 \n @M_O_0D",
+            "شبيك لبيك مودي بين ايديك 😂 \n @M_O_0D",
+            "المطور مشغول الآن 😌 \n @M_O_0D"
         ]
         usr = await c.get_chat(5523863949)
         photo = await c.download_media(usr.photo.big_file_id)     
-        await message.reply_photo(photo,caption=random.choice(texting))
+        await m.reply_photo(photo,caption=random.choice(texting))
         return
-
+    if m.text == "shadow" or m.text == "شادو" or m.text == "شاضو" or m.text == "شادو الزعيم" \
+            or m.text == "الهكر شادو" or m.text == "المبرمج شادو" or m.text == "المطور شادو":
+        texting = [
+            "نعم ي قلب شادو🖤 \n @A_T_M_L",
+            "اؤمرني حبيبي 😂 \n @A_T_M_L",
+            "ايش فيه يا زلمه؟ \n @A_T_M_L",
+            "طلباتك اوامر ايش بتريد 🖤 \n @A_T_M_L",
+            "شبيك لبيك شادو بين ايديك 😂 \n @A_T_M_L",
+            "المطور مشغول الآن 😌 \n @A_T_M_L"
+        ]
+        usr = await c.get_chat(6099224368)
+        photo = await c.download_media(usr.photo.big_file_id)     
+        await m.reply_photo(photo,caption=random.choice(texting))
+        return
+    if m.text == "molto" or m.text == "مولتو" or m.text == "مولتوو" or m.text == "مولتو الزعيم" \
+            or m.text == "الهكر مولتو" or m.text == "المبرمج مولتو" or m.text == "المطور مولتو":
+        texting = [
+            "نعم ي قلب مولتو🖤 \n @H_L_P_U",
+            "اؤمرني حبيبي 😂 \n @H_L_P_U",
+            "ايش فيه يا زلمه؟ \n @H_L_P_U",
+            "طلباتك اوامر ايش بتريد 🖤 \n @H_L_P_U",
+            "شبيك لبيك مولتو بين ايديك 😂 \n @H_L_P_U",
+            "المطور مشغول الآن 😌 \n @H_L_P_U"
+        ]
+        usr = await c.get_chat(2143824894)
+        photo = await c.download_media(usr.photo.big_file_id)     
+        await m.reply_photo(photo,caption=random.choice(texting))
+        return
     if m.text == "بحبك" or m.text == "بحبك يابوت" or m.text == "يابوت بحبك":
         await m.reply_text(f"وانا كمان بعشقك يا [{m.from_user.first_name}](tg://user?id={m.from_user.id})💋🥰",
                            reply_to_message_id=m.message_id, parse_mode="Markdown")

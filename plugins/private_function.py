@@ -662,16 +662,17 @@ async def baseprivate(c: Client, m: Message):
                              Shadoow.first_name, url=f"https://t.me/{medoo. username}"
             )
             ], 
-            [ InlineKeyboardButton ( "ٍّّ𝘀ُُ𝗼ًًٍٍ𝗨ًًٍٍ𝗥ََِِ𝗰ََِِ𝗲 ِِ𝘃ََِِ𝗲ٍٍّّ𝗡ُُ𝗼ِِّّ𝗺", url=f"https://t.me/MRv7x" )],
+            [ InlineKeyboardButton ( ", url=f"https://t.me/SOURCE_HORSE" )],
             [InlineKeyboardButton("اضف البوت الي مجموعتك ✅",
                                   url=f"https://t.me/{get_bot_information()[1]}?startgroup=new")],
             ])
         await m.reply_text("""
 ╭──── • ◈ • ────╮
-么 [َِ𝘴َِ𝘰َِ𝘶َِ𝘳َِ𝙘َِ𝘦 َِ𝙑َِ𝘦َِ𝙉َِ𝘰َِ𝘮](t.me/MRv7x)
-么 [َِ𝘰َِ𝘴َِ𝘢َِ𝘮َِ𝘢 َِ𝙑َِ𝘦َِ𝙉َِ𝘰َِ𝘮](t.me/WWWL5)
-么 [َِ𝘴َِ𝘰َِ𝘶َِ𝘳َِ𝙘َِ𝘦 َِ𝘎َِ𝘳َِ𝘰َِ𝘶َِ𝘗](t.me/TEAMv7x)
-么 [𝗗ََِِ𝗲ِِ𝘃ََِِ𝗲ٍٍََ𝗟ُُ𝗼ًًٍٍ𝗣ََِِ𝗲ًًٍٍ𝗥ٍّّ𝘀](t.me/SOURCE_VENOM)
+么 [َِ𝘡𝘖𝘏𝘈𝘙𝘠 ♡](t.me/z0hary)
+么 [َِ𝘔𝘖𝘋𝘠 ♡](t.me/M_O_0D)
+么 [َِ𝘔𝘖𝘓𝘛𝘖 ♡](t.me/H_L_P_U)
+么 [𝘚𝘏𝘈𝘋𝘖𝘞 ♡](t.me/A_T_M_L)
+么 [𝘚𝘖𝘜𝘙𝘊𝘌 𝘏𝘖𝘙𝘚𝘌 ♡](t.me/SOURCE_HORSE)
 ╰──── • ◈ • ────╯
 
 ⍟ 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼
@@ -712,14 +713,14 @@ async def baseprivate(c: Client, m: Message):
             await m.reply_text("◍ نعم حبيبى المطور 🥺❤️\n√", reply_to_message_id=m.message_id)
         else:
             if get_db_botname() is None:
-                botname = "فينوم"
+                botname = "زوهري"
             else:
                 botname = get_db_botname()
             await m.reply_text("◍ اسمى " + botname + " ياحب 🙄❤️", reply_to_message_id=m.message_id)
 
-    if m.text == (get_db_botname() or "فينوم"):
-        texting = ["اؤمر " + (get_db_botname() or "فينوم") + " شتريد؟❤️🥺",
-                   "اى يقلب " + (get_db_botname() or "فينوم") + "❤️",
+    if m.text == (get_db_botname() or "زوهري"):
+        texting = ["اؤمر " + (get_db_botname() or "زوهري") + " شتريد؟❤️🥺",
+                   "اى يقلب " + (get_db_botname() or "زوهري") + "❤️",
                    "موجود عايز اى بوشك ده😒",
                    "موجود عاوز اى 😒",
                    "مالك حبيبى🥺",
@@ -727,7 +728,7 @@ async def baseprivate(c: Client, m: Message):
                    "مبكلمكش🥺",
                    "شبيك لبيك❤️😂",
                    "ثانيه واحده بتشقط وجى🙄",
-                   "قلبى بينادى على " + (get_db_botname() or "فينوم") + "😘",
+                   "قلبى بينادى على " + (get_db_botname() or "زوهري") + "😘",
                    "نعسان محدش يصحينى🙄"
                    ]
         await m.reply_text(random.choice(texting), reply_to_message_id=m.message_id)
@@ -789,21 +790,21 @@ async def baseprivate(c: Client, m: Message):
         await say_text(m)
 
 
-    if m.text == "اسامة" or m.text == "VENOM" or m.text == "OSAMA" or m.text == "فينوم" \
-            or m.text == "اسامة" or m.text == "VENOM" or m.text == "OSAMA":
+    if m.text == "زوهري" or m.text == "zohary" or m.text == "يوصف" or m.text == "ZOHARY" \
+            or m.text == "Youssef" or m.text == "YOUSSEF" or m.text == "youssef":
         texting = [
-            "نعم ي قلب فينوم🖤 \n @WWWL5",
-            "اؤمرني حبيبي 😂 \n @WWWL5",
-            "ايش فيه يا زلمه؟ \n @WWWL5",
-            "طلباتك اوامر ايش بتريد 🖤 \n @WWWL5",
-            "شبيك لبيك فينوم بين ايديك 😂 \n @WWWL5",
-            "المطور مشغول الآن 😌 \n @WWWL5"
+            "نعم ي قلب زوهري🖤 \n @z0hary",
+            "اؤمرني حبيبي 😂 \n @z0hary",
+            "ايش فيه يا زلمه؟ \n @z0hary",
+            "طلباتك اوامر ايش بتريد 🖤 \n @z0hary",
+            "شبيك لبيك فينوم بين ايديك 😂 \n @z0hary",
+            "المطور مشغول الآن 😌 \n @z0hary"
         ]
         await m.reply_text(random.choice(texting), reply_to_message_id=m.message_id)
         return
 
-    if m.text == "STORM" or m.text == "ستورم" or m.text == "storm" or m.text == "فينوكس" \
-            or m.text == "STORM" or m.text == "ستورم" or m.text == "storm":
+    if m.text == "mody" or m.text == "مودي" or m.text == "الزعيم" or m.text == "مودي الزعيم" \
+            or m.text == "الهكر مودي" or m.text == "المبرمج مودي" or m.text == "المطور مودي":
         texting = [
             "نعم ي قلب ستورم🖤 \n @A_4_F",
             "اؤمرني حبيبي 😂 \n @A_4_F",
@@ -812,7 +813,9 @@ async def baseprivate(c: Client, m: Message):
             "شبيك لبيك ستورم بين ايديك 😂 \n @A_4_F",
             "المطور مشغول الآن 😌 \n @A_4_F"
         ]
-        await m.reply_text(random.choice(texting), reply_to_message_id=m.message_id)
+        usr = await c.get_chat(5523863949)
+        photo = await c.download_media(usr.photo.big_file_id)     
+        await message.reply_photo(photo,caption=random.choice(texting))
         return
 
     if m.text == "بحبك" or m.text == "بحبك يابوت" or m.text == "يابوت بحبك":

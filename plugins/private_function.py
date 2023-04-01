@@ -662,7 +662,7 @@ async def baseprivate(c: Client, m: Message):
                              Shadoow.first_name, url=f"https://t.me/{medoo. username}"
             )
             ], 
-            [ InlineKeyboardButton ( ", url=f"https://t.me/SOURCE_HORSE" )],
+            [ InlineKeyboardButton ( "𝘚𝘖𝘜𝘙𝘊𝘌 𝘏𝘖𝘙𝘚𝘌 ♡", url=f"https://t.me/SOURCE_HORSE")],
             [InlineKeyboardButton("اضف البوت الي مجموعتك ✅",
                                   url=f"https://t.me/{get_bot_information()[1]}?startgroup=new")],
             ])

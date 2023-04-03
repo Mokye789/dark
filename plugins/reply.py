@@ -360,7 +360,7 @@ async def allreply_for_bot(c: Client, m: Message):
     await stickerall(m, ["اتفق", "اتفق"], "https://t.me/UURTBOT/29")
     await stickerall(m, ["عادل شكل", "قلقاسه", "الناحو", "الزعامه"], "https://t.me/UURTBOT/30")
     await stickerall(m, ["م عارف", "مش عارف"], "https://t.me/UURTBOT/31")
-    await stickerall(m, ["error", "ايرور", "404"], "https://t.me/UURTBOT/32")
+    await stickerall(m, ["error", "ايرور", "404"], "https://t.me/higufhkgjb/91")
     await stickerall(m, ["صدمتني", "صدمه"], "https://t.me/UURTBOT/33")
 
     # rep one sticker ====================
